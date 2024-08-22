@@ -79,7 +79,7 @@ function App() {
             />
           </div>
 
-          <button onClick={calculateBmi}>Calculate BMI</button>
+          <button onClick={calculateBmi}>Submit</button>
           <button onClick={clearall}>Clear</button>
 
           {bmi !== null && (
